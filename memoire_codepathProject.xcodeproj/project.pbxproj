@@ -193,6 +193,7 @@
 				TargetAttributes = {
 					B29D6B871DD8EFA10021D19A = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = 7PX37ZY9M9;
 						ProvisioningStyle = Automatic;
 					};
 					B29D6B9B1DD8EFA10021D19A = {
@@ -410,6 +411,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PX37ZY9M9;
 				INFOPLIST_FILE = memoire_codepathProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onemedical.memoire-codepathProject";
@@ -422,6 +424,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 7PX37ZY9M9;
 				INFOPLIST_FILE = memoire_codepathProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.onemedical.memoire-codepathProject";
@@ -503,6 +506,7 @@
 				B29D6BB21DD8EFA10021D19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B29D6BB31DD8EFA10021D19A /* Build configuration list for PBXNativeTarget "memoire_codepathProjectTests" */ = {
 			isa = XCConfigurationList;
@@ -511,6 +515,7 @@
 				B29D6BB51DD8EFA10021D19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B29D6BB61DD8EFA10021D19A /* Build configuration list for PBXNativeTarget "memoire_codepathProjectUITests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +524,7 @@
 				B29D6BB81DD8EFA10021D19A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
