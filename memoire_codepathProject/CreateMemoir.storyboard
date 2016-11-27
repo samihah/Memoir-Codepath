@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11542" systemVersion="16B2659" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="t49-p1-gIC">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Trigger View Controller-->
+        <scene sceneID="pyX-eL-A8T">
+            <objects>
+                <viewController id="t49-p1-gIC" customClass="TriggerViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="t7v-2R-Ycd"/>
+                        <viewControllerLayoutGuide type="bottom" id="SIs-uT-AUs"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Jli-1d-Qzq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="u51-6a-Fbo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-297" y="-28"/>
+        </scene>
+        <!--Video View Controller-->
+        <scene sceneID="jbD-nW-AsY">
+            <objects>
+                <viewController id="leB-uU-pUi" customClass="VideoViewController" customModule="memoire_codepathProject" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="h7l-Jw-iq9"/>
+                        <viewControllerLayoutGuide type="bottom" id="YdE-It-JnS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xNF-vW-xSr">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="7Ac-JZ-Erm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="433" y="-28"/>
+        </scene>
+    </scenes>
+</document>
