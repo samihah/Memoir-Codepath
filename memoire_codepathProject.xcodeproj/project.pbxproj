@@ -68,6 +68,24 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		4A0BB18F1DEA871500E1002C /* Supporting files */ = {
+			isa = PBXGroup;
+			children = (
+				B29D6B8B1DD8EFA10021D19A /* AppDelegate.swift */,
+				B29D6B941DD8EFA10021D19A /* LaunchScreen.storyboard */,
+				B29D6B971DD8EFA10021D19A /* Info.plist */,
+			);
+			name = "Supporting files";
+			sourceTree = "<group>";
+		};
+		4A0BB1901DEA872D00E1002C /* Daniel */ = {
+			isa = PBXGroup;
+			children = (
+				B29D6B8F1DD8EFA10021D19A /* Main.storyboard */,
+			);
+			name = Daniel;
+			sourceTree = "<group>";
+		};
 		B29D6B7F1DD8EFA10021D19A = {
 			isa = PBXGroup;
 			children = (
@@ -91,11 +109,9 @@
 		B29D6B8A1DD8EFA10021D19A /* memoire_codepathProject */ = {
 			isa = PBXGroup;
 			children = (
-				B29D6B8B1DD8EFA10021D19A /* AppDelegate.swift */,
-				B29D6B8F1DD8EFA10021D19A /* Main.storyboard */,
+				4A0BB1901DEA872D00E1002C /* Daniel */,
 				B29D6B921DD8EFA10021D19A /* Assets.xcassets */,
-				B29D6B941DD8EFA10021D19A /* LaunchScreen.storyboard */,
-				B29D6B971DD8EFA10021D19A /* Info.plist */,
+				4A0BB18F1DEA871500E1002C /* Supporting files */,
 			);
 			path = memoire_codepathProject;
 			sourceTree = "<group>";
