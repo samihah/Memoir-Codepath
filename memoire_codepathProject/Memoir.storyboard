@@ -20,12 +20,30 @@
                     <view key="view" contentMode="scaleToFill" id="t21-Wq-DPL">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Cpn-lW-Isd">
+                                <rect key="frame" x="16" y="28" width="104" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to Gallery"/>
+                                <connections>
+                                    <segue destination="grL-Vg-xoq" kind="presentation" id="QKZ-yP-Geu"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bdz-Hg-uDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-55" y="49"/>
+        </scene>
+        <!--GalleryStoryboard-->
+        <scene sceneID="xaJ-Kw-3dy">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" referencedIdentifier="GalleryStoryboard" id="grL-Vg-xoq" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cgw-Sq-wtn" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="509" y="48"/>
         </scene>
     </scenes>
 </document>

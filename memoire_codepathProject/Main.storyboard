@@ -20,12 +20,128 @@
                     <view key="view" contentMode="scaleToFill" id="p9p-w5-NY3">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wAc-88-xBa">
+                                <rect key="frame" x="113" y="462" width="149" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Pull up to view gallery"/>
+                                <connections>
+                                    <segue destination="fxh-4z-CGl" kind="presentation" id="baa-3W-5CX"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the main camera view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Qk4-FN-hTe">
+                                <rect key="frame" x="77" y="161" width="220" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="pXZ-oQ-bR1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="346" y="-100"/>
+            <point key="canvasLocation" x="561" y="-101"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="8RI-Gl-hUJ">
+            <objects>
+                <viewController storyboardIdentifier="GalleryStoryboard" useStoryboardIdentifierAsRestorationIdentifier="YES" id="fxh-4z-CGl" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="S58-nL-zqn"/>
+                        <viewControllerLayoutGuide type="bottom" id="LIp-hk-ccY"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="gvx-kn-5Sn">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="This is the gallery view" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="szl-Ub-LlW">
+                                <rect key="frame" x="77" y="170" width="173" height="21"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Rya-J0-NsI">
+                                <rect key="frame" x="127" y="318" width="120" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Go to onboarding"/>
+                                <connections>
+                                    <segue destination="m9R-of-0N6" kind="presentation" id="jy9-4G-CaK"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIi-oX-0Ks">
+                                <rect key="frame" x="136" y="394" width="102" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Create Memoir"/>
+                                <connections>
+                                    <segue destination="XmE-df-Zko" kind="presentation" id="doY-3h-vYt"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="cX5-S0-2Cd">
+                                <rect key="frame" x="114" y="464" width="146" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="View existing Memoir"/>
+                                <connections>
+                                    <segue destination="zCb-s3-9sc" kind="presentation" id="ygf-IW-b4I"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nUf-hg-Svb">
+                                <rect key="frame" x="165" y="55" width="44" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Profile"/>
+                                <connections>
+                                    <segue destination="MsH-3v-w9T" kind="presentation" id="JCd-6A-Giu"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="jIi-SC-DWu">
+                                <rect key="frame" x="115" y="247" width="142" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Back to camera view"/>
+                                <connections>
+                                    <segue destination="olW-Rv-nU9" kind="presentation" id="iIW-3r-qCO"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NfH-WI-UPd" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1055" y="-100"/>
+        </scene>
+        <!--CreateMemoir-->
+        <scene sceneID="CXP-Pb-CZT">
+            <objects>
+                <viewControllerPlaceholder storyboardName="CreateMemoir" id="XmE-df-Zko" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9ma-Pw-5Qr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1528" y="-130"/>
+        </scene>
+        <!--Onboarding-->
+        <scene sceneID="EN8-B4-vTm">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Onboarding" id="m9R-of-0N6" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zxM-st-Wn8" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1521" y="-184"/>
+        </scene>
+        <!--Memoir-->
+        <scene sceneID="rIp-pT-SXc">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Memoir" id="zCb-s3-9sc" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9dp-BD-uqm" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1508" y="-71"/>
+        </scene>
+        <!--Profile-->
+        <scene sceneID="r03-Sh-wp4">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Profile" id="MsH-3v-w9T" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Vf5-sd-b3p" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1505" y="-17"/>
         </scene>
     </scenes>
 </document>

@@ -20,12 +20,30 @@
                     <view key="view" contentMode="scaleToFill" id="eTn-eK-px9">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mx2-Ou-d32">
+                                <rect key="frame" x="113" y="569" width="149" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Complete onboarding"/>
+                                <connections>
+                                    <segue destination="OsX-lq-6YW" kind="presentation" id="ClP-oi-VEj"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="I4J-BW-vsz" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-97" y="-35"/>
+        </scene>
+        <!--Main-->
+        <scene sceneID="gfW-nG-DUz">
+            <objects>
+                <viewControllerPlaceholder storyboardName="Main" id="OsX-lq-6YW" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3gR-qq-jda" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="293" y="-36"/>
         </scene>
     </scenes>
 </document>
