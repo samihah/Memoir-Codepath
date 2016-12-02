@@ -21,6 +21,8 @@ class TriggerViewController: UIViewController {
     override func viewDidLayoutSubviews() {
         // Setup common UI elemennts:
         setUpUI()
+        // Setup button
+        nextButton.backgroundColor = UIColor.memoirBlue()
     }
  
 }

@@ -11,6 +11,6 @@ import UIKit
 extension UIViewController {
     
     func setUpUI() {
-        self.view.backgroundColor = UIColor(red:0.10, green:0.11, blue:0.11, alpha:1.0)
+        self.view.backgroundColor = UIColor.memoirBlack()
     }
 }
