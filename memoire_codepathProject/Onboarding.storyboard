@@ -43,7 +43,7 @@
                 <viewControllerPlaceholder storyboardName="Main" id="OsX-lq-6YW" sceneMemberID="viewController"/>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="3gR-qq-jda" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="293" y="-36"/>
+            <point key="canvasLocation" x="398" y="-36"/>
         </scene>
     </scenes>
 </document>

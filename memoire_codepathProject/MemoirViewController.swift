@@ -9,27 +9,18 @@
 import UIKit
 
 class MemoirViewController: UIViewController {
-
+    
+    @IBOutlet var backgroundView: UIView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
         // Do any additional setup after loading the view.
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    override func viewDidLayoutSubviews() {
+        backgroundView.backgroundColor = UIColor(red:0.10, green:0.11, blue:0.11, alpha:1.0)
     }
-    */
 
+    
 }
