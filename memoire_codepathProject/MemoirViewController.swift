@@ -16,11 +16,12 @@ class MemoirViewController: UIViewController {
         super.viewDidLoad()
         
         // Do any additional setup after loading the view.
+    
     }
     
     override func viewDidLayoutSubviews() {
-        backgroundView.backgroundColor = UIColor(red:0.10, green:0.11, blue:0.11, alpha:1.0)
+        // Setup common UI elemennts:
+        setUpUI()
     }
-
     
 }

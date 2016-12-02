@@ -19,11 +19,8 @@ class TriggerViewController: UIViewController {
     }
 
     override func viewDidLayoutSubviews() {
-        nextButton.layer.borderColor = UIColor.blue.cgColor // Set border color
-        nextButton.layer.borderWidth = 1 // Set border width
-        nextButton.layer.cornerRadius = 5 // Set border radius (Make it curved, increase this for a more rounded button
+        // Setup common UI elemennts:
+        setUpUI()
     }
-
-    
-    
+ 
 }
