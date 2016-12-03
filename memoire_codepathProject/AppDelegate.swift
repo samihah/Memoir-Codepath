@@ -16,6 +16,19 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        // Nicholas sets up navigation contoller color and fonts:
+        UINavigationBar.appearance().barTintColor = UIColor(red:0.40, green:0.76, blue:0.75, alpha:1.0)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName : UIColor.white]
+//        UINavigationBar.titleTextAttributes = [ NSFontAttributeName: UIFont(name: "CaviarDreams", size: 20)!]
+        let attrs = [
+            NSForegroundColorAttributeName: UIColor.red,
+            NSFontAttributeName: UIFont(name: "Bitter-Regular.t", size: 24)!
+        ]
+        
+        UINavigationBar.appearance().titleTextAttributes = attrs
+        
         return true
     }
 

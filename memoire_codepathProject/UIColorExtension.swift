@@ -11,7 +11,7 @@ import UIKit
 extension UIColor {
     
     static func memoirBlue() -> UIColor {
-        return UIColor(red:0.49, green:0.83, blue:0.80, alpha:1.0)
+        return UIColor(red:0.40, green:0.76, blue:0.75, alpha:1.0)
     }
     static func memoirBlack() -> UIColor {
         return UIColor(red:0.10, green:0.11, blue:0.11, alpha:1.0)

@@ -21,6 +21,7 @@ class VideoViewController: UIViewController {
         // Setup common UI elemennts:
         setUpUI()
         createButton.backgroundColor = UIColor.memoirBlue()
+        createButton.layer.cornerRadius = 5
     }
     
     
