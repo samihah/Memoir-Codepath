@@ -23,6 +23,7 @@ class TriggerViewController: UIViewController {
         setUpUI()
         // Setup button
         nextButton.backgroundColor = UIColor.memoirBlue()
+        nextButton.layer.cornerRadius = 5
     }
  
 }

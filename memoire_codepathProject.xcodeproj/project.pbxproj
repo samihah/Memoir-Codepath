@@ -64,6 +64,9 @@
 		4A20CDD51DEA9D36008A2ECB /* GalleryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GalleryViewController.swift; sourceTree = "<group>"; };
 		4A34D0551DF1270500FA54F9 /* UISetupExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UISetupExtension.swift; sourceTree = "<group>"; };
 		4A34D0571DF12D4E00FA54F9 /* UIColorExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColorExtension.swift; sourceTree = "<group>"; };
+		4A9941881DF36AB200B23880 /* Bitter-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Bold.ttf"; sourceTree = "<group>"; };
+		4A9941891DF36AB200B23880 /* Bitter-Italic.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Italic.ttf"; sourceTree = "<group>"; };
+		4A99418A1DF36AB200B23880 /* Bitter-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Bitter-Regular.ttf"; sourceTree = "<group>"; };
 		B29D6B881DD8EFA10021D19A /* memoire_codepathProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = memoire_codepathProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B29D6B8B1DD8EFA10021D19A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B29D6B921DD8EFA10021D19A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -148,6 +151,16 @@
 			name = Nicholas;
 			sourceTree = "<group>";
 		};
+		4A99418B1DF36AB600B23880 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				4A9941881DF36AB200B23880 /* Bitter-Bold.ttf */,
+				4A9941891DF36AB200B23880 /* Bitter-Italic.ttf */,
+				4A99418A1DF36AB200B23880 /* Bitter-Regular.ttf */,
+			);
+			name = Fonts;
+			sourceTree = "<group>";
+		};
 		B29D6B7F1DD8EFA10021D19A = {
 			isa = PBXGroup;
 			children = (
@@ -171,6 +184,7 @@
 		B29D6B8A1DD8EFA10021D19A /* memoire_codepathProject */ = {
 			isa = PBXGroup;
 			children = (
+				4A99418B1DF36AB600B23880 /* Fonts */,
 				4A0BB1931DEA8A2900E1002C /* Samihah */,
 				4A0BB1901DEA872D00E1002C /* Daniel */,
 				B29D6B921DD8EFA10021D19A /* Assets.xcassets */,
